@@ -1,0 +1,112 @@
+@import "~normalize.css";
+@import "roboto.css";
+@import "~bootstrap/scss/bootstrap";
+
+%text {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+}
+body {
+  font-family: roboto;
+  height: 100%;
+  .header {
+    position: fixed;
+    background-color: #3b4256;
+    @extend %text;
+    color: dde1e6;
+    z-index: 2;
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar {
+      .navbar-brand {
+        font-size: 14px;
+        color: #dde1e6;
+      }
+      .navbar-toggler {
+        font-size: 10px;
+        border-color: #dde1e6;
+      }
+      .navbar-collapse {
+        .navbar-nav {
+          display: flex;
+          justify-content: flex-end;
+          z-index: 2;
+          .btn {
+            font-size: 14px;
+            background-color: #3b4256;
+          }
+          .dropdown-menu {
+            background-color: #3b4256;
+            border: 0px solid;
+            .form-inline {
+              background-color: #3b4256;
+            }
+            .dropdown-item {
+              color: #dde1e6;
+            }
+          }
+        }
+        .nav-link {
+          color: #dde1e6;
+        }
+      }
+    }
+  }
+  .internet {
+    @extend %text;
+    padding-top: 60px;
+    .media {
+      font-size: 14px;
+      h5 {
+        font-size: 20px;
+      }
+    }
+    .navbar {
+      .navbar-brand {
+        font-size: 16px;
+      }
+      .navbar-toggler {
+        font-size: 10px;
+        border-color: #dde1e6;
+      }
+      .nav-link {
+        font-size: 16px;
+      }
+    }
+  }
+  .news {
+    .media {
+      .mr-3 {
+        display: none;
+      }
+      .media-body {
+        background-color: #fff;
+        .card {
+          border: 0px solid;
+          .card-header {
+            background-color: #fff;
+            border: 0px solid;
+            .btn {
+              text-decoration: none;
+              color: black;
+              text-align: left;
+              padding-left: 0px;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+    .list-unstyled {
+      display: inline;
+    }
+  }
+}

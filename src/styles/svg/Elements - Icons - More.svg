@@ -1,0 +1,16 @@
+<svg id="Elements_Icons_More" data-name="Elements / Icons / More" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M14,2a2,2,0,1,1,2,2A2,2,0,0,1,14,2ZM7,2A2,2,0,1,1,9,4,2,2,0,0,1,7,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="more">
+    <path id="Rectangle" d="M0,0H24V24H0Z" fill="none"/>
+    <path id="Mask-2" data-name="Mask" d="M14,2a2,2,0,1,1,2,2A2,2,0,0,1,14,2ZM7,2A2,2,0,1,1,9,4,2,2,0,0,1,7,2ZM0,2A2,2,0,1,1,2,4,2,2,0,0,1,0,2Z" transform="translate(3 10)" fill="#fff"/>
+    <g id="more-2" data-name="more" transform="translate(3 10)" clip-path="url(#clip-path)">
+      <g id="Color" transform="translate(-3 -10)">
+        <path id="_Color" data-name="↳ 🎨Color" d="M4,0H20a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#848e99"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M11,12.5v-.79l-.27-.28a6.509,6.509,0,1,1,.7-.7l.28.27h.79l4.99,5L16,17.49Z" transform="translate(3 3)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <path id="Rectangle" d="M0,0H24V24H0Z" fill="none"/>
+  <path id="Mask-2" data-name="Mask" d="M11,12.5v-.79l-.27-.28a6.509,6.509,0,1,1,.7-.7l.28.27h.79l4.99,5L16,17.49Z" transform="translate(3 3)" fill="#fff"/>
+  <g id="search-2" data-name="search" clip-path="url(#clip-path)">
+    <g id="_Resources_ChangeColorsHere_Platinum" data-name="_Resources / ChangeColorsHere / Platinum">
+      <path id="_Color" data-name="↳ 🎨Color" d="M4,0H20a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#f4f7fb"/>
+    </g>
+  </g>
+</svg>
