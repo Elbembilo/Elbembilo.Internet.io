@@ -3,33 +3,22 @@ import "./babel";
 import "./styles/style.scss";
 import "bootstrap";
 import Chart from "chart.js";
+import "./body.json";
 
 var ctx = document.getElementById("myChart");
+var requestURL = "./body.jason";
 var myChart = new Chart(ctx, {
-  type: "bar",
+  type: "line",
   data: {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: [2010, 2011, 2012, 2013, 2014.2015, 2016, 2017],
     datasets: [
       {
-        label: "# of Votes",
-        data: [12, 19, 3, 5, 2, 3],
-        backgroundColor: [
-          "rgba(255, 99, 132, 0.2)",
-          "rgba(54, 162, 235, 0.2)",
-          "rgba(255, 206, 86, 0.2)",
-          "rgba(75, 192, 192, 0.2)",
-          "rgba(153, 102, 255, 0.2)",
-          "rgba(255, 159, 64, 0.2)",
-        ],
-        borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)",
-        ],
-        borderWidth: 1,
+        label: "90% к 2015 году",
+        lable: "95% к 2020 году",
+        data: [36, 26, 40, 42, 44, 46, 59, 80, 81, 82, 85, 84, 45, 50, 90],
+        backgroundColor: ["#0d49cc"],
+        borderColor: ["#0d49cc"],
+        borderWidth: 2,
       },
     ],
   },
