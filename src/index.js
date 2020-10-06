@@ -4,13 +4,21 @@ import "./styles/style.scss";
 import "bootstrap";
 import Chart from "chart.js";
 import "./body.json";
+import axios from "axios";
+axios.get("/src/body.json").then((res) => {
+  console.log(res.data);
+});
 
-var ctx = document.getElementById("myChart");
-var requestURL = "./body.jason";
-var myChart = new Chart(ctx, {
+let lebelsYears = axios.get("/src/body.json").then((res) => {
+  let years = years.map((item) => item.year);
+});
+
+let ctx = document.getElementById("myChart");
+let requestURL = "./body.json";
+let myChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: [2010, 2011, 2012, 2013, 2014.2015, 2016, 2017],
+    labels: [lebelsYears],
     datasets: [
       {
         label: "90% к 2015 году",
