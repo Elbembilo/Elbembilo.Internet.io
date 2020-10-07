@@ -1,36 +1,36 @@
 {
   "years": [
     {
-      "year": "2010",
-      "data": ["35"]
+      "year": 2010,
+      "persent": 35
     },
     {
-      "year": "2011",
-      "data": ["45%"]
+      "year": 2011,
+      "persent": 45
     },
     {
-      "year": "2012",
-      "data": ["42"]
+      "year": 2012,
+      "persent": 42
     },
     {
-      "year": "2013",
-      "data": ["43"]
+      "year": 2013,
+      "persent": 43
     },
     {
-      "year": "2014",
-      "data": ["40"]
+      "year": 2014,
+      "persent": 40
     },
     {
-      "year": "2015",
-      "data": ["35"]
+      "year": 2015,
+      "persent": 35
     },
     {
-      "year": "2016",
-      "data": ["65"]
+      "year": 2016,
+      "persent": 65
     },
     {
-      "year": "2017",
-      "data": ["90"]
+      "year": 2017,
+      "persent": 90
     }
   ]
 }
