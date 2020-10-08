@@ -186,3 +186,85 @@ body {
     }
   }
 }
+.grafic {
+  padding: 80px 0px;
+  .grafic__head {
+    @extend %text;
+
+    .grafic__1 {
+      .info__text {
+        font-size: 16px;
+        color: #848e99;
+      }
+      .numbers {
+        font-size: 30px;
+        color: #3b4256;
+      }
+      .numbersmin {
+        font-size: 16px;
+      }
+    }
+  }
+  .statistics {
+    .card {
+      border: solid 1px #dde1e6;
+      .card-header {
+        display: flex;
+        justify-content: center;
+        border: solid 1px #dde1e6;
+        background-color: #fff;
+        .btn {
+          font-size: 18px;
+          color: #3b4256;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.gos__links {
+  padding: 80px 0px;
+  background-color: #f4f7fb;
+  .text__link {
+    @extend %text;
+    font-size: 32px;
+  }
+  .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+  }
+  .nav-item {
+    .nav-link {
+      @extend %text;
+      font-size: 16px;
+      color: #848e99;
+      text-decoration: none;
+      border: 0px solid;
+    }
+    .nav-link:focus {
+      color: black;
+    }
+  }
+  .tab-content {
+    .media {
+      padding: 5px 0px;
+      margin: 15px 0px;
+      background-color: #fff;
+      .mt-0 {
+        @extend %text;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .mr-3 {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px;
+  background-color: #3b4256;
+}
