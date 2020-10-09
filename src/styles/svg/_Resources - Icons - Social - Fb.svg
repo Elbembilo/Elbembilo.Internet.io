@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M7.315,23H2.437V11.5H0V7.536H2.437V5.156C2.437,1.923,3.813,0,7.723,0h3.255V3.964H8.944c-1.522,0-1.623.554-1.623,1.587L7.314,7.536H11L10.569,11.5H7.314V23Z" transform="translate(7)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="_Resources_Icons_Social_Fb" data-name="_Resources / Icons / Social / Fb" transform="translate(0 0)">
+    <g id="facebook">
+      <path id="Rectangle" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Mask-2" data-name="Mask" d="M7.315,23H2.437V11.5H0V7.536H2.437V5.156C2.437,1.923,3.813,0,7.723,0h3.255V3.964H8.944c-1.522,0-1.623.554-1.623,1.587L7.314,7.536H11L10.569,11.5H7.314V23Z" transform="translate(7)" fill="#fff"/>
+      <g id="facebook-2" data-name="facebook" clip-path="url(#clip-path)">
+        <g id="_Resources_ChangeColorsHere_Ink" data-name="_Resources / ChangeColorsHere / Ink">
+          <path id="Rectangle_4_Copy_11" data-name="Rectangle 4 Copy 11" d="M4,0H20a4,4,0,0,1,4,4V20a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#c7ccd1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

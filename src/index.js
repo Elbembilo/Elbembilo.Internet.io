@@ -5,6 +5,7 @@ import "bootstrap";
 import Chart from "chart.js";
 import "./body.json";
 import axios from "axios";
+import "./styles/media.scss";
 
 // async function getPersent() {
 //   const response = await axios.get("/src/body.json").then((response) => {
