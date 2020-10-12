@@ -1,52 +1,76 @@
-@media (max-width: 380px) {
+@media (min-width: 1600px) {
   .header {
-    position: relative;
+    position: fixed;
     width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .header {
-    position: relative;
-    width: 100%;
-  }
-}
-@media (max-width: 1920px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-    top: 0px;
-    .navbar-expand-lg {
-      display: flex;
-      justify-content: space-between;
+    .navbar {
+      .navbar-brand {
+        font-size: 20px;
+        color: #dde1e6;
+        img {
+          margin-right: 16px;
+        }
+      }
     }
-  }
-  .internet {
-    padding-top: 0px;
-    margin-top: 50px;
-  }
-  .news {
-    .media {
-      .mr-3 {
-        display: block;
+    .navbar-collapse {
+      flex-grow: 0;
+      .navbar-nav {
+        .nav-item {
+          margin-right: 25px;
+          .btn {
+            font-size: 20px;
+          }
+          .btn-secondary {
+            border: 0px solid;
+          }
+          .nav-link {
+            padding: 0px;
+          }
+        }
       }
     }
   }
-  .footer {
-    .footer__main {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 80px;
-      border-bottom: 1px solid #848e99;
+  .internet {
+    padding: 70px 0px 16px;
+    .container {
+      .row {
+        .col-4 {
+          .media {
+            .media-body {
+              padding-top: 10px;
+              .mt-0 {
+                font-size: 22px;
+              }
+            }
+          }
+        }
+      }
+      .col-8 {
+        padding-top: 10px;
+      }
     }
-    .footer__bottom {
-      margin-top: 50px;
-      display: flex;
-      justify-content: space-between;
+  }
+  .news {
+    padding-top: 80px;
+    .container {
+      .media {
+        .mr-3 {
+          display: block;
+        }
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        .col-3 {
+          margin: 64px 0px 0px 0px;
+          .media {
+            display: flex;
+            flex-wrap: wrap;
 
-      .logo__social {
-        margin-top: 0px;
+            .mr-3 {
+              width: 352px;
+            }
+          }
+        }
       }
     }
   }
