@@ -1,10 +1,32 @@
+@media (min-width: 768px) {
+  .for__people {
+    .container {
+      .row {
+        .col-8 {
+          .accordion {
+            .card {
+              background-color: #f4f7fb;
+              .collapse {
+                background-color: #fff;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 @media (min-width: 1600px) {
   .for__people {
     .container {
       .row {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         .col-8 {
+          flex: 0 0 66.6666666667%;
+          max-width: 66.6666666667%;
           .accordion {
             .card {
               background-color: #f4f7fb;
@@ -56,6 +78,9 @@
           }
         }
         .col-4 {
+          flex: 0 0 33.3333333333%;
+          max-width: 33.3333333333%;
+
           .PeopleTwo {
             border: 0px solid;
             .card-header {

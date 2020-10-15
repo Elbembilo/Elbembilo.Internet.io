@@ -4,7 +4,7 @@
       .grafic__head {
         margin-bottom: 30px;
         .grafic__text {
-          font-size: 42px;
+          font-size: 32px;
           line-height: 1.25;
           letter-spacing: -0.4px;
           margin-bottom: 30px;
@@ -19,18 +19,20 @@
 
             .info__text {
               padding: 32px 64px 32px 32px;
-              font-size: 24px;
+              font-size: 16px;
               line-height: 1.5;
             }
             .numbers {
               padding: 32px 0px 32px 32px;
-              font-size: 60px;
+              font-size: 48px;
+              line-height: 1.17;
+              letter-spacing: -0.6px;
               width: 70px;
             }
             .nomera {
               .numbers {
                 padding: 32px 0px 32px 32px;
-                font-size: 60px;
+
                 width: 70px;
               }
             }
