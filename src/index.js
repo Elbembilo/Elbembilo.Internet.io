@@ -6,6 +6,12 @@ import Chart from "chart.js";
 import "./body.json";
 import axios from "axios";
 import "./styles/media.scss";
+import "./styles/news.scss";
+import "./styles/internet.scss";
+import "./styles/for__people.scss";
+import "./styles/grafic.scss";
+import "./styles/footer.scss";
+import "./styles/gos__links.scss";
 
 // async function getPersent() {
 //   const response = await axios.get("/src/body.json").then((response) => {

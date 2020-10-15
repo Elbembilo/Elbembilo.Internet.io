@@ -1,0 +1,91 @@
+@media (min-width: 1600px) {
+  .for__people {
+    .container {
+      .row {
+        display: flex;
+        justify-content: space-between;
+        .col-8 {
+          .accordion {
+            .card {
+              background-color: #f4f7fb;
+              .card-header {
+                padding-left: 0px;
+                .mb-0 {
+                  .btn {
+                    font-size: 32px;
+                    font-weight: normal;
+                    letter-spacing: -0.4px;
+                  }
+                }
+              }
+              .collapse {
+                background-color: #fff;
+                margin-bottom: 8px;
+                border-radius: 8px;
+                .card-body {
+                  background-color: #fff;
+                  .media {
+                    .media-body {
+                      font-size: 14px;
+                      color: #848e99;
+                      h5 {
+                        color: #3b4256;
+                        font-size: 22px;
+                      }
+                      .link__services {
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: #3b4256;
+                        font-weight: 500;
+                        line-height: 1.5;
+                      }
+                    }
+                    .img1 {
+                      width: 32px;
+                    }
+                    .img2 {
+                      width: 32px;
+                    }
+                    .img3 {
+                      width: 32px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .col-4 {
+          .PeopleTwo {
+            border: 0px solid;
+            .card-header {
+              padding-left: 0px;
+              background-color: #f4f7fb;
+              .btn {
+                font-size: 32px;
+              }
+            }
+            .collapse {
+              .card-body {
+                .dropdown {
+                  margin-bottom: 6px;
+
+                  .btn {
+                    font-size: 18px;
+                  }
+                }
+                .people__bottom {
+                  padding: 10px 0px 15px;
+                  .btn {
+                    border-radius: 0px;
+                    width: 296px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@media (min-width: 1600px) {
+  .gos__links {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .line {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 3px solid grey;
+      }
+      .text__link {
+        padding-right: 102px;
+        font-size: 42px;
+      }
+      .nav {
+        display: flex;
+        flex-direction: row;
+        .nav-item {
+          .nav-link {
+            font-size: 20px;
+          }
+        }
+        .nav-item:hover {
+          background-color: #fff;
+          border-bottom: 4px solid blue;
+        }
+        .nav-item:focus-within {
+          background-color: #fff;
+          border-bottom: 4px solid blue;
+        }
+      }
+      .tab-content {
+        padding-top: 47px;
+        .tab-pane {
+          display: flex;
+          flex-wrap: wrap;
+          .media {
+            align-items: center;
+            width: 352px;
+            height: 116px;
+            margin-right: 32px;
+            .media-body {
+              .mt-0 {
+                font-size: 22px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

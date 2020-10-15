@@ -1,0 +1,66 @@
+@media (min-width: 1600px) {
+  .footer {
+    .container {
+      .footer__main {
+        display: flex;
+        justify-content: space-between;
+        .footer__logo {
+          .media {
+            flex-direction: column;
+            .media-body {
+              font-size: 22px;
+              font-weight: normal;
+              margin-top: 24px;
+              .mt-0 {
+                font-size: 32px;
+              }
+            }
+            .mr-3 {
+              width: 120px;
+            }
+          }
+          .btn {
+            width: 350px;
+            height: 40px;
+            margin-left: 0px;
+            margin-top: 24px;
+          }
+        }
+        .footer__nav {
+          .nav__text {
+            font-size: 30px;
+          }
+          .nav-item {
+            .nav-link {
+              font-size: 24px;
+              line-height: 1.5;
+            }
+          }
+        }
+        .projects {
+          .nav__text {
+            font-size: 30px;
+          }
+          .nav {
+            .nav-item {
+              .nav-link {
+                font-size: 24px;
+                line-height: 1.5;
+              }
+            }
+          }
+        }
+      }
+      .footer__bottom {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid grey;
+        margin-top: 80px;
+        padding-top: 48px;
+        .logo__social {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
