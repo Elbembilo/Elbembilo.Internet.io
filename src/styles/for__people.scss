@@ -50,16 +50,26 @@
                     .media-body {
                       font-size: 14px;
                       color: #848e99;
+                      line-height: 1.43;
                       h5 {
                         color: #3b4256;
-                        font-size: 22px;
-                      }
-                      .link__services {
-                        text-decoration: none;
                         font-size: 18px;
-                        color: #3b4256;
-                        font-weight: 500;
-                        line-height: 1.5;
+                      }
+
+                      .people__link {
+                        .card-body {
+                          .media {
+                            .media-body {
+                              .link__services {
+                                text-decoration: none;
+                                font-size: 18px;
+                                color: #3b4256;
+                                font-weight: 500;
+                                line-height: 1.5;
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                     .img1 {
@@ -73,6 +83,9 @@
                     }
                   }
                 }
+              }
+              .zero {
+                width: 300px;
               }
             }
           }

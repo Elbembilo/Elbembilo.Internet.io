@@ -1,3 +1,30 @@
+@media (min-width: 768px) {
+  .grafic {
+    .container {
+      .grafic__head {
+        .grafic__text {
+          text-align: center;
+        }
+        .grafic__info {
+          .grafic__1 {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            background-color: #f4f7fb;
+          }
+        }
+        .grafic__1:focus-within {
+          background-color: #fff;
+          border-bottom: 4px solid blue;
+        }
+        .grafic__1:hover {
+          background-color: #fff;
+          border-bottom: 4px solid blue;
+        }
+      }
+    }
+  }
+}
 @media (min-width: 1600px) {
   .grafic {
     .container {
@@ -13,9 +40,11 @@
           display: flex;
           justify-content: space-between;
           .grafic__1 {
+            align-items: unset;
+            justify-content: space-between;
             width: 100%;
             background-color: #f4f7fb;
-            border: 1px solid grey;
+            border: solid 1px #dde1e6;
 
             .info__text {
               padding: 32px 64px 32px 32px;
@@ -29,12 +58,10 @@
               letter-spacing: -0.6px;
               width: 70px;
             }
-            .nomera {
-              .numbers {
-                padding: 32px 0px 32px 32px;
-
-                width: 70px;
-              }
+            .help {
+              flex-direction: row;
+              font-size: 18px;
+              padding-bottom: 17px;
             }
           }
           .grafic__1:hover {
