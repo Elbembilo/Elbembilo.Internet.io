@@ -42,7 +42,7 @@ function Chartjson(year, persent) {
       labels: year,
       datasets: [
         {
-          label: "95% к 2020 году",
+          label: "Цели",
           data: persent,
           backgroundColor: ["#0d49cc"],
           borderColor: ["#0d49cc"],
@@ -55,10 +55,20 @@ function Chartjson(year, persent) {
         yAxes: [
           {
             ticks: {
-              beginAtZero: true,
+              // Include a dollar sign in the ticks
+              callback: function (value, index, values) {
+                return value + "%";
+              },
             },
           },
         ],
+      },
+      legend: {
+        // align: left,
+        display: true,
+        labels: {
+          fontColor: "#848e99",
+        },
       },
     },
   });
